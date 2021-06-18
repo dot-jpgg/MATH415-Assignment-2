@@ -1,0 +1,761 @@
+if system_dependent('IsDebugMode')==1, dbquit; end
+plotDensityFunctions
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Invalid data argument.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 22)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',22,0)">line 22</a>)
+subplot(3,1,1); plot(x,U,'r--')
+} 
+plotDensityFunctions
+{Undefined function 'abs' for input arguments of type 'function_handle'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions>@(n)(1+abs(Ux)^2)^(1/2)', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 15)" style="font-weight:bold">plotDensityFunctions>@(n)(1+abs(Ux)^2)^(1/2)</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',15,0)">line 15</a>)
+rho1=@(n)(1+abs(Ux)^2)^(1/2);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 23)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',23,0)">line 23</a>)
+subplot(3,1,2); plot(x,rho1(n),'b')
+} 
+plotDensityFunctions
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mpower', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\ops\mpower.m', 51)" style="font-weight:bold"> ^ </a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\ops\mpower.m',51,0)">line 51</a>)
+Incorrect dimensions for raising a matrix to a power. Check that the matrix is square and
+the power is a scalar. To perform elementwise matrix powers, use '.^'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions>@(n)(-2*n*exp(n*x))/((exp(n*x)+1)^2)', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 13)" style="font-weight:bold">plotDensityFunctions>@(n)(-2*n*exp(n*x))/((exp(n*x)+1)^2)</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',13,0)">line 13</a>)
+Ux=@(n)(-2*n*exp(n*x))/((exp(n*x)+1)^2);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions>@(n)(1+abs(Ux(n))^2)^(1/2)', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 15)" style="font-weight:bold">plotDensityFunctions>@(n)(1+abs(Ux(n))^2)^(1/2)</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',15,0)">line 15</a>)
+rho1=@(n)(1+abs(Ux(n))^2)^(1/2);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 23)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',23,0)">line 23</a>)
+subplot(3,1,2); plot(x,rho1(n),'b')
+} 
+plotDensityFunctions
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mpower', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\ops\mpower.m', 51)" style="font-weight:bold"> ^ </a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\ops\mpower.m',51,0)">line 51</a>)
+Incorrect dimensions for raising a matrix to a power. Check that the matrix is square and
+the power is a scalar. To perform elementwise matrix powers, use '.^'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions>@(n)(-2*n*exp(n*x))/((exp(n*x)+1)^2)', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 13)" style="font-weight:bold">plotDensityFunctions>@(n)(-2*n*exp(n*x))/((exp(n*x)+1)^2)</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',13,0)">line 13</a>)
+Ux=@(n)(-2*n*exp(n*x))/((exp(n*x)+1)^2);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions>@(n)(1+abs(Ux(n)).^2).^(1/2)', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 15)" style="font-weight:bold">plotDensityFunctions>@(n)(1+abs(Ux(n)).^2).^(1/2)</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',15,0)">line 15</a>)
+rho1=@(n)(1+abs(Ux(n)).^2).^(1/2);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 23)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',23,0)">line 23</a>)
+subplot(3,1,2); plot(x,rho1(n),'b')
+} 
+plotDensityFunctions
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Incorrect dimensions for matrix multiplication. Check that the number of columns in the
+first matrix matches the number of rows in the second matrix. To perform elementwise
+multiplication, use '.*'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions>@(n)((2*n^2)*(exp(n*x)-1)*exp(n*x))/((exp(n*x)+1).^3)', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 14)" style="font-weight:bold">plotDensityFunctions>@(n)((2*n^2)*(exp(n*x)-1)*exp(n*x))/((exp(n*x)+1).^3)</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',14,0)">line
+14</a>)
+Uxx=@(n)((2*n^2)*(exp(n*x)-1)*exp(n*x))/((exp(n*x)+1).^3);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions>@(n)(1+abs(Uxx(n)).^2).^(1/4)', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 16)" style="font-weight:bold">plotDensityFunctions>@(n)(1+abs(Uxx(n)).^2).^(1/4)</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',16,0)">line 16</a>)
+rho2=@(n)(1+abs(Uxx(n)).^2).^(1/4);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 24)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',24,0)">line 24</a>)
+subplot(3,1,3); plot(x,rho2(n),'g')
+} 
+plotDensityFunctions
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$\frac{1-\exp(nx)}{1+\exp(nx)}$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 30)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',30,0)">line 30</a>)] 
+plotDensityFunctions
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$\frac{1-\text{exp}(nx)}{1+\text{exp}(nx)}$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 33)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',33,0)">line 33</a>)] 
+plotDensityFunctions
+{Unrecognized function or variable 'suptitle'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 23)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',23,0)">line 23</a>)
+suptitle("Comparing Density Functions")
+} 
+plotDensityFunctions
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$\frac{1-\text{exp}(nx)}{1+\text{exp}(nx)}$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 33)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',33,0)">line 33</a>)] 
+plotDensityFunctions
+{Unrecognized function or variable 's'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 19)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',19,0)">line 19</a>)
+s
+} 
+plotDensityFunctions
+{Unrecognized function or variable 's'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 19)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',19,0)">line 19</a>)
+s
+} 
+plotDensityFunctions
+{Unrecognized function or variable 's'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 19)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',19,0)">line 19</a>)
+s
+} 
+plotDensityFunctions
+{Unrecognized function or variable 's'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 19)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',19,0)">line 19</a>)
+s
+} 
+plotDensityFunctions
+{Unrecognized function or variable 's'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 19)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',19,0)">line 19</a>)
+s
+} 
+plotDensityFunctions
+{Unrecognized function or variable 's'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 19)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',19,0)">line 19</a>)
+s
+} 
+plotDensityFunctions
+{Unrecognized function or variable 's'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 19)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',19,0)">line 19</a>)
+s
+} 
+plotDensityFunctions
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 33)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',33,0)">line 33</a>)] 
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$\frac{1-\text{exp}(nx)}{1+\text{exp}(nx)}$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 34)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',34,0)">line 34</a>)] 
+plotDensityFunctions
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+Unknown property
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 33)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',33,0)">line 33</a>)
+legend({'$\frac{1-\text{exp}(nx)}{1+\text{exp}(nx)}$'}, {'$\rho_{1}$'}, {'$\rho_{2}$'})
+} 
+plotDensityFunctions
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 33)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',33,0)">line 33</a>)] 
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$\frac{1-\text{exp}(nx)}{1+\text{exp}(nx)}$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 35)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',35,0)">line 35</a>)] 
+plotDensityFunctions
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 37)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',37,0)">line 37</a>)] 
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$\frac{1-\text{exp}(nx)}{1+\text{exp}(nx)}$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 39)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',39,0)">line 39</a>)] 
+plotDensityFunctions
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 37)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',37,0)">line 37</a>)] 
+plotDensityFunctions
+
+temp =
+
+    '$\frac{1-\text{exp}(nx)}{1+\text{exp}(nx)}$'
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 38)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',38,0)">line 38</a>)] 
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+\frac{1}{2}
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 40)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',40,0)">line 40</a>)] 
+plotDensityFunctions
+
+temp =
+
+    '$\frac{1-\text{exp}(nx)}{1+\text{exp}(nx)}$'
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 38)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',38,0)">line 38</a>)] 
+plotDensityFunctions
+
+temp =
+
+    '$(1-\text{exp}(nx))/(1+\text{exp}(nx))$'
+
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 38)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',38,0)">line 38</a>)] 
+plotDensityFunctions
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 37)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',37,0)">line 37</a>)] 
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$(1-\text{exp}(nx))/(1+\text{exp}(nx))$
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 39)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',39,0)">line 39</a>)] 
+plotDensityFunctions
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 37)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',37,0)">line 37</a>)] 
+plotDensityFunctions
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 36)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',36,0)">line 36</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 36)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',36,0)">line 36</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 44)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',44,0)">line 44</a>)] 
+[Warning: Ignoring extra legend entries.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>process_inputs', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 594)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',594,0)">line 594</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend>make_legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 335)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',335,0)">line 335</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 44)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',44,0)">line 44</a>)] 
+plotDensityFunctions
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$(1-e^{10x})/(1+e^{
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 47)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',47,0)">line 47</a>)] 
+plotDensityFunctions
+plotDensityFunctions
+plotDensityFunctions
+plotDensityFunctions
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$(1-e^{10x})/(1+e^{
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 48)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',48,0)">line 48</a>)] 
+plotDensityFunctions
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$(1-e^{10 x})/(1+e^{
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 48)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',48,0)">line 48</a>)] 
+plotDensityFunctions
+[Warning: Escaped character '\%' is not valid. See 'doc sprintf' for supported special
+characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)] 
+[Warning: Escaped character '\%' is not valid. See 'doc sprintf' for supported special
+characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)] 
+[Warning: Escaped character '\%' is not valid. See 'doc sprintf' for supported special
+characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)] 
+[Warning: Escaped character '\%' is not valid. See 'doc sprintf' for supported special
+characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)] 
+[Warning: Escaped character '\%' is not valid. See 'doc sprintf' for supported special
+characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)] 
+[Warning: Escaped character '\%' is not valid. See 'doc sprintf' for supported special
+characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)] 
+[Warning: Escaped character '\%' is not valid. See 'doc sprintf' for supported special
+characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)] 
+[Warning: Escaped character '\%' is not valid. See 'doc sprintf' for supported special
+characters.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)] 
+[Warning: Error updating Legend.
+
+ String scalar or character vector must have valid interpreter syntax:
+$(1-e^{
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m', 36)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\graphics\printing\print.m',36,0)">line 36</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 48)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',48,0)">line 48</a>)] 
+plotDensityFunctions
+plotDensityFunctions
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('legend', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m', 279)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\scribe\legend.m',279,0)">line 279</a>)
+Invalid argument. Type 'help legend' for more information.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plotDensityFunctions', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m', 28)" style="font-weight:bold">plotDensityFunctions</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Extra\plotDensityFunctions.m',28,0)">line 28</a>)
+legend(n)
+} 
+plotDensityFunctions
+plotDensityFunctions
+
+legends = 
+
+    "3"
+
+
+legends = 
+
+  1×2 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "3"    "4"
+
+
+legends = 
+
+  1×3 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "3"    "4"    "5"
+
+
+legends = 
+
+  1×4 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "3"    "4"    "5"    "6"
+
+
+legends = 
+
+  1×5 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "3"    "4"    "5"    "6"    "7"
+
+
+legends = 
+
+  1×6 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "3"    "4"    "5"    "6"    "7"    "8"
+
+
+legends = 
+
+  1×7 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "3"    "4"    "5"    "6"    "7"    "8"    "9"
+
+
+legends = 
+
+  1×8 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "3"    "4"    "5"    "6"    "7"    "8"    "9"    "10"
+
+plotDensityFunctions
+
+legends = 
+
+    "$n=3$"
+
+
+legends = 
+
+  1×2 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"
+
+
+legends = 
+
+  1×3 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"
+
+
+legends = 
+
+  1×4 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"
+
+
+legends = 
+
+  1×5 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"
+
+
+legends = 
+
+  1×6 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"    "$n=8$"
+
+
+legends = 
+
+  1×7 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"    "$n=8$"    "$n=9$"
+
+
+legends = 
+
+  1×8 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"    "$n=8$"    "$n=9$"    "$n=10$"
+
+
+leg1 = 
+
+  <a href="matlab:helpPopup matlab.graphics.illustration.Legend" style="font-weight:bold">Legend</a> ($n=3$, $n=4$, $n=5$, $n=6$, $n=7$, $n=8$, $n=9$, $n=10$) with properties:
+
+         String: {'$n=3$'  '$n=4$'  '$n=5$'  '$n=6$'  '$n=7$'  '$n=8$'  '$n=9$'  '$n=10$'}
+       Location: 'northeast'
+    Orientation: 'vertical'
+       FontSize: 7.2000
+       Position: [0.7370 0.6509 0.1496 0.2617]
+          Units: 'normalized'
+
+  Show <a href="matlab:if exist('leg1', 'var'), matlab.graphics.internal.getForDisplay('leg1', leg1, 'matlab.graphics.illustration.Legend'), else, matlab.graphics.internal.getForDisplay('leg1'), end">all properties</a>
+
+plotDensityFunctions
+
+legends = 
+
+    "$n=3$"
+
+
+legends = 
+
+  1×2 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"
+
+
+legends = 
+
+  1×3 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"
+
+
+legends = 
+
+  1×4 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"
+
+
+legends = 
+
+  1×5 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"
+
+
+legends = 
+
+  1×6 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"    "$n=8$"
+
+
+legends = 
+
+  1×7 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"    "$n=8$"    "$n=9$"
+
+
+legends = 
+
+  1×8 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"    "$n=8$"    "$n=9$"    "$n=10$"
+
+
+leg1 = 
+
+  <a href="matlab:helpPopup matlab.graphics.illustration.Legend" style="font-weight:bold">Legend</a> ($n=3$, $n=4$, $n=5$, $n=6$, $n=7$, $n=8$, $n=9$, $n=10$) with properties:
+
+         String: {'$n=3$'  '$n=4$'  '$n=5$'  '$n=6$'  '$n=7$'  '$n=8$'  '$n=9$'  '$n=10$'}
+       Location: 'northeast'
+    Orientation: 'vertical'
+       FontSize: 8.1000
+       Position: [0.8185 0.7556 0.0772 0.1592]
+          Units: 'normalized'
+
+  Show <a href="matlab:if exist('leg1', 'var'), matlab.graphics.internal.getForDisplay('leg1', leg1, 'matlab.graphics.illustration.Legend'), else, matlab.graphics.internal.getForDisplay('leg1'), end">all properties</a>
+
+plotDensityFunctions
+
+legends = 
+
+    "$n=3$"
+
+
+legends = 
+
+  1×2 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"
+
+
+legends = 
+
+  1×3 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"
+
+
+legends = 
+
+  1×4 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"
+
+
+legends = 
+
+  1×5 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"
+
+
+legends = 
+
+  1×6 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"    "$n=8$"
+
+
+legends = 
+
+  1×7 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"    "$n=8$"    "$n=9$"
+
+
+legends = 
+
+  1×8 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    "$n=3$"    "$n=4$"    "$n=5$"    "$n=6$"    "$n=7$"    "$n=8$"    "$n=9$"    "$n=10$"
+
+
+leg1 = 
+
+  <a href="matlab:helpPopup matlab.graphics.illustration.Legend" style="font-weight:bold">Legend</a> ($n=3$, $n=4$, $n=5$, $n=6$, $n=7$, $n=8$, $n=9$, $n=10$) with properties:
+
+         String: {'$n=3$'  '$n=4$'  '$n=5$'  '$n=6$'  '$n=7$'  '$n=8$'  '$n=9$'  '$n=10$'}
+       Location: 'northeast'
+    Orientation: 'vertical'
+       FontSize: 8.1000
+       Position: [0.8011 0.7556 0.0929 0.1592]
+          Units: 'normalized'
+
+  Show <a href="matlab:if exist('leg1', 'var'), matlab.graphics.internal.getForDisplay('leg1', leg1, 'matlab.graphics.illustration.Legend'), else, matlab.graphics.internal.getForDisplay('leg1'), end">all properties</a>
+
+plotDensityFunctions
+plotDensityFunctions
+
+leg1 = 
+
+  <a href="matlab:helpPopup matlab.graphics.illustration.Legend" style="font-weight:bold">Legend</a> (data1, data2, data3, data4, data5, data6, data7, data8) with properties:
+
+         String: {'data1'  'data2'  'data3'  'data4'  'data5'  'data6'  'data7'  'data8'}
+       Location: 'northeast'
+    Orientation: 'vertical'
+       FontSize: 8.1000
+       Position: [0.8113 0.7556 0.0827 0.1592]
+          Units: 'normalized'
+
+  Show <a href="matlab:if exist('leg1', 'var'), matlab.graphics.internal.getForDisplay('leg1', leg1, 'matlab.graphics.illustration.Legend'), else, matlab.graphics.internal.getForDisplay('leg1'), end">all properties</a>
+
+plotDensityFunctions
+
+leg = 
+
+    "$n=3$"
+
+
+leg = 
+
+    "$n=4$"
+
+
+leg = 
+
+    "$n=5$"
+
+
+leg = 
+
+    "$n=6$"
+
+
+leg = 
+
+    "$n=7$"
+
+
+leg = 
+
+    "$n=8$"
+
+
+leg = 
+
+    "$n=9$"
+
+
+leg = 
+
+    "$n=10$"
+
+
+leg1 = 
+
+  <a href="matlab:helpPopup matlab.graphics.illustration.Legend" style="font-weight:bold">Legend</a> ($n=3$, $n=4$, $n=5$, $n=6$, $n=7$, $n=8$, $n=9$, $n=10$) with properties:
+
+         String: {1×8 cell}
+       Location: 'northeast'
+    Orientation: 'vertical'
+       FontSize: 8.1000
+       Position: [0.8011 0.7556 0.0929 0.1592]
+          Units: 'normalized'
+
+  Show <a href="matlab:if exist('leg1', 'var'), matlab.graphics.internal.getForDisplay('leg1', leg1, 'matlab.graphics.illustration.Legend'), else, matlab.graphics.internal.getForDisplay('leg1'), end">all properties</a>
+
+plotDensityFunctions
+
+leg1 = 
+
+  <a href="matlab:helpPopup matlab.graphics.illustration.Legend" style="font-weight:bold">Legend</a> ($n=5$, $n=10$, $n=15$, $n=20$, $n=25$, $n=30$, $n=35$, $n=…) with properties:
+
+         String: {1×10 cell}
+       Location: 'northeast'
+    Orientation: 'vertical'
+       FontSize: 8.1000
+       Position: [0.8011 0.7170 0.0929 0.1978]
+          Units: 'normalized'
+
+  Show <a href="matlab:if exist('leg1', 'var'), matlab.graphics.internal.getForDisplay('leg1', leg1, 'matlab.graphics.illustration.Legend'), else, matlab.graphics.internal.getForDisplay('leg1'), end">all properties</a>
+
+plotDensityFunctions
+
+leg1 = 
+
+  <a href="matlab:helpPopup matlab.graphics.illustration.Legend" style="font-weight:bold">Legend</a> ($n=5$, $n=10$, $n=15$, $n=20$, $n=25$, $n=30$, $n=35$, $n=…) with properties:
+
+         String: {1×10 cell}
+       Location: 'northeast'
+    Orientation: 'vertical'
+       FontSize: 8.1000
+       Position: [0.8011 0.7170 0.0929 0.1978]
+          Units: 'normalized'
+
+  Show <a href="matlab:if exist('leg1', 'var'), matlab.graphics.internal.getForDisplay('leg1', leg1, 'matlab.graphics.illustration.Legend'), else, matlab.graphics.internal.getForDisplay('leg1'), end">all properties</a>
+
+plotDensityFunctions
+
+leg1 = 
+
+  <a href="matlab:helpPopup matlab.graphics.illustration.Legend" style="font-weight:bold">Legend</a> ($n=5$, $n=10$, $n=15$, $n=20$, $n=25$, $n=30$, $n=35$, $n=…) with properties:
+
+         String: {1×10 cell}
+       Location: 'northeast'
+    Orientation: 'vertical'
+       FontSize: 8.1000
+       Position: [0.8011 0.7170 0.0929 0.1978]
+          Units: 'normalized'
+
+  Show <a href="matlab:if exist('leg1', 'var'), matlab.graphics.internal.getForDisplay('leg1', leg1, 'matlab.graphics.illustration.Legend'), else, matlab.graphics.internal.getForDisplay('leg1'), end">all properties</a>
+
+plotDensityFunctions
+plotDensityFunctions
+plotDensityFunctions
+plotDensityFunctions
+plotDensityFunctions
+plotDensityFunctions
+plotDensityFunctions
+plotDensityFunctions
+plotDensityFunctions
+2^6
+
+ans =
+
+    64
+
+cls
+{Unrecognized function or variable 'cls'.
+} 
+clc
+mainScript
+[Warning: Failure at t=2.814160e-01.  Unable to meet integration tolerances without reducing the step size below the smallest value allowed (8.881784e-16) at time t.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ode15s', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\funfun\ode15s.m', 668)" style="font-weight:bold">ode15s</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\funfun\ode15s.m',668,0)">line 668</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mainFunction', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainFunction.m', 28)" style="font-weight:bold">mainFunction</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainFunction.m',28,0)">line 28</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mainScript', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainScript.m', 48)" style="font-weight:bold">mainScript</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainScript.m',48,0)">line 48</a>)] 
+-----------------
+p = 6, rho_i = 1, espilon = 0.000100
+Elapsed time is 2117.391831 seconds.
+-----------------

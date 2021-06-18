@@ -1,0 +1,204 @@
+-----------------
+p = 1, rho_i = 1, espilon = 0.010000
+Elapsed time is 5.909919 seconds.
+-----------------
+-----------------
+p = 1, rho_i = 1, espilon = 0.001000
+Elapsed time is 2.730310 seconds.
+-----------------
+-----------------
+p = 1, rho_i = 1, espilon = 0.000100
+Elapsed time is 2.942115 seconds.
+-----------------
+-----------------
+p = 2, rho_i = 1, espilon = 0.010000
+Elapsed time is 4.271533 seconds.
+-----------------
+-----------------
+p = 2, rho_i = 1, espilon = 0.001000
+Elapsed time is 4.678867 seconds.
+-----------------
+-----------------
+p = 2, rho_i = 1, espilon = 0.000100
+Elapsed time is 5.489724 seconds.
+-----------------
+-----------------
+p = 3, rho_i = 1, espilon = 0.010000
+Elapsed time is 15.902583 seconds.
+-----------------
+-----------------
+p = 3, rho_i = 1, espilon = 0.001000
+Elapsed time is 18.193088 seconds.
+-----------------
+-----------------
+p = 3, rho_i = 1, espilon = 0.000100
+Elapsed time is 22.117020 seconds.
+-----------------
+-----------------
+p = 4, rho_i = 1, espilon = 0.010000
+Elapsed time is 73.499957 seconds.
+-----------------
+-----------------
+p = 4, rho_i = 1, espilon = 0.001000
+Elapsed time is 139.411436 seconds.
+-----------------
+-----------------
+p = 4, rho_i = 1, espilon = 0.000100
+Elapsed time is 108.748044 seconds.
+-----------------
+-----------------
+p = 1, rho_i = 2, espilon = 0.010000
+Elapsed time is 4.225219 seconds.
+-----------------
+-----------------
+p = 1, rho_i = 2, espilon = 0.001000
+Elapsed time is 3.832107 seconds.
+-----------------
+-----------------
+p = 1, rho_i = 2, espilon = 0.000100
+Elapsed time is 5.150516 seconds.
+-----------------
+-----------------
+p = 2, rho_i = 2, espilon = 0.010000
+Elapsed time is 18.729120 seconds.
+-----------------
+-----------------
+p = 2, rho_i = 2, espilon = 0.001000
+Elapsed time is 16.748515 seconds.
+-----------------
+-----------------
+p = 2, rho_i = 2, espilon = 0.000100
+Elapsed time is 35.797875 seconds.
+-----------------
+-----------------
+p = 3, rho_i = 2, espilon = 0.010000
+Elapsed time is 206.371314 seconds.
+-----------------
+-----------------
+p = 3, rho_i = 2, espilon = 0.001000
+Elapsed time is 129.732331 seconds.
+-----------------
+-----------------
+p = 3, rho_i = 2, espilon = 0.000100
+Elapsed time is 124.904254 seconds.
+-----------------
+-----------------
+p = 4, rho_i = 2, espilon = 0.010000
+Elapsed time is 1421.391743 seconds.
+-----------------
+-----------------
+p = 4, rho_i = 2, espilon = 0.001000
+Elapsed time is 981.749955 seconds.
+-----------------
+-----------------
+p = 4, rho_i = 2, espilon = 0.000100
+Elapsed time is 3121.040923 seconds.
+-----------------
+-----------------
+p = 1, rho_i = 3, espilon = 0.010000
+Elapsed time is 2.061242 seconds.
+-----------------
+-----------------
+p = 1, rho_i = 3, espilon = 0.001000
+Elapsed time is 1.635959 seconds.
+-----------------
+-----------------
+p = 1, rho_i = 3, espilon = 0.000100
+Elapsed time is 1.657289 seconds.
+-----------------
+-----------------
+p = 2, rho_i = 3, espilon = 0.010000
+Elapsed time is 1.655231 seconds.
+-----------------
+-----------------
+p = 2, rho_i = 3, espilon = 0.001000
+Elapsed time is 1.786809 seconds.
+-----------------
+-----------------
+p = 2, rho_i = 3, espilon = 0.000100
+Elapsed time is 1.673573 seconds.
+-----------------
+-----------------
+p = 3, rho_i = 3, espilon = 0.010000
+Elapsed time is 1.694062 seconds.
+-----------------
+-----------------
+p = 3, rho_i = 3, espilon = 0.001000
+Elapsed time is 1.895496 seconds.
+-----------------
+-----------------
+p = 3, rho_i = 3, espilon = 0.000100
+Elapsed time is 1.721447 seconds.
+-----------------
+-----------------
+p = 4, rho_i = 3, espilon = 0.010000
+Elapsed time is 1.805164 seconds.
+-----------------
+-----------------
+p = 4, rho_i = 3, espilon = 0.001000
+Elapsed time is 2.332301 seconds.
+-----------------
+-----------------
+p = 4, rho_i = 3, espilon = 0.000100
+Elapsed time is 2.306145 seconds.
+-----------------
+-----------------
+p = 5, rho_i = 3, espilon = 0.010000
+Elapsed time is 2.450209 seconds.
+-----------------
+-----------------
+p = 5, rho_i = 3, espilon = 0.001000
+Elapsed time is 5.342715 seconds.
+-----------------
+-----------------
+p = 5, rho_i = 3, espilon = 0.000100
+Elapsed time is 7.556974 seconds.
+-----------------
+-----------------
+p = 6, rho_i = 3, espilon = 0.010000
+Elapsed time is 5.749434 seconds.
+-----------------
+-----------------
+p = 6, rho_i = 3, espilon = 0.001000
+Elapsed time is 16.155260 seconds.
+-----------------
+-----------------
+p = 6, rho_i = 3, espilon = 0.000100
+Elapsed time is 52.963390 seconds.
+-----------------
+-----------------
+p = 7, rho_i = 3, espilon = 0.010000
+Elapsed time is 12.041297 seconds.
+-----------------
+-----------------
+p = 7, rho_i = 3, espilon = 0.001000
+Elapsed time is 76.805268 seconds.
+-----------------
+-----------------
+p = 7, rho_i = 3, espilon = 0.000100
+Elapsed time is 396.853550 seconds.
+-----------------
+-----------------
+p = 8, rho_i = 3, espilon = 0.010000
+Elapsed time is 51.879097 seconds.
+-----------------
+-----------------
+p = 8, rho_i = 3, espilon = 0.001000
+Elapsed time is 266.708919 seconds.
+-----------------
+-----------------
+p = 8, rho_i = 3, espilon = 0.000100
+Elapsed time is 2089.201928 seconds.
+-----------------
+-----------------
+p = 9, rho_i = 3, espilon = 0.010000
+Elapsed time is 394.795938 seconds.
+-----------------
+-----------------
+p = 9, rho_i = 3, espilon = 0.001000
+Elapsed time is 3439.294560 seconds.
+-----------------
+-----------------
+p = 9, rho_i = 3, espilon = 0.000100
+Elapsed time is 20047.007024 seconds.
+-----------------

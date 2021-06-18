@@ -1,0 +1,31 @@
+{Output argument "rho" (and maybe others) not assigned during call to "rho".
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dxdtFunc', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\dxdtFunc.m', 6)" style="font-weight:bold">dxdtFunc</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\dxdtFunc.m',6,0)">line 6</a>)
+dxdt=(1/(rho(x,U,j,n,i)*tau*dxi^2))*...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dYdt', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\dYdt.m', 20)" style="font-weight:bold">dYdt</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\dYdt.m',20,0)">line 20</a>)
+    dxdt(j)=dxdtFunc(x,dxi,j,tau,U,n,i,movingMesh);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mainFunction>@(t,Y)dYdt(t,Y,dxi,n,epsilon,tau,i,movingMesh)', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainFunction.m', 28)" style="font-weight:bold">mainFunction>@(t,Y)dYdt(t,Y,dxi,n,epsilon,tau,i,movingMesh)</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainFunction.m',28,0)">line 28</a>)
+[t,Y]=ode15s(@(t,Y)dYdt(t,Y,dxi,n,epsilon,tau,i,movingMesh),tSpan,Y0);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('odearguments', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\funfun\private\odearguments.m', 90)" style="font-weight:bold">odearguments</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\funfun\private\odearguments.m',90,0)">line 90</a>)
+f0 = feval(ode,t0,y0,args{:});   % ODE15I sets args{1} to yp0.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ode15s', 'C:\Program Files\MATLAB\R2019b\toolbox\matlab\funfun\ode15s.m', 150)" style="font-weight:bold">ode15s</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019b\toolbox\matlab\funfun\ode15s.m',150,0)">line 150</a>)
+    odearguments(FcnHandlesUsed, solver_name, ode, tspan, y0, options, varargin);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mainFunction', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainFunction.m', 28)" style="font-weight:bold">mainFunction</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainFunction.m',28,0)">line 28</a>)
+[t,Y]=ode15s(@(t,Y)dYdt(t,Y,dxi,n,epsilon,tau,i,movingMesh),tSpan,Y0);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mainScript', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainScript.m', 22)" style="font-weight:bold">mainScript</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainScript.m',22,0)">line 22</a>)
+mainFunction(epsilon,p,i,movingMesh)
+} 
+mainScript
+if system_dependent('IsDebugMode')==1, dbquit; end
+mainScript
+{Unrecognized function or variable 'stop'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mainScript', 'C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainScript.m', 24)" style="font-weight:bold">mainScript</a> (<a href="matlab: opentoline('C:\Users\liamg\OneDrive\Documents\MATLAB\MATH415\Assignment 2\Q3_2\mainScript.m',24,0)">line 24</a>)
+stop
+} 
